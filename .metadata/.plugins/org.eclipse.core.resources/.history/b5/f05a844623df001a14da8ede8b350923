@@ -1,0 +1,21 @@
+package javapractice;
+
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Removeduplicatechar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<Character> charc = new LinkedHashSet<Character>();
+		String str = "Ramanji";
+		for(int i=0;i<=str.length()-1;i++) {
+			System.out.println(str.charAt(i));
+			charc.add(str.charAt(i));
+		}
+
+		System.out.println(charc);
+	}
+
+}

@@ -1,0 +1,23 @@
+package javapractice;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Reversestr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str= "Ramanji Asula cat mat Asula ";
+		Set<String> temp=new LinkedHashSet<String>();
+		String[] strword=str.split(" ");
+		System.out.println(strword);
+		
+		for(String sr:strword) {
+			temp.add(sr);
+			
+		}
+		System.out.println(temp);
+	}
+
+}

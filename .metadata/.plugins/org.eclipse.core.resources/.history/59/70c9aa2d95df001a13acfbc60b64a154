@@ -1,0 +1,24 @@
+package javapractice;
+
+public class Arraysample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int a[]=new int[6];
+		a[0]=3;a[1]=5;a[2]=7;a[3]=9;a[4]=11;a[5]=14;
+		int b[]= {4,5,7,9};
+		
+		for(int i=0;i<a.length;i++) {
+			System.out.println("The givena array list values is "  + a[i]);
+			
+	}
+		for(int j=0;j<b.length;j++) {
+			System.out.println("The givena array list values is "  + b[j]);
+			
+	}
+		
+		
+	}
+}

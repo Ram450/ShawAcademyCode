@@ -1,0 +1,20 @@
+package javapractice;
+
+public class Stringreverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str= "Dinesh";
+		String Res="";
+		
+		for(int i=str.length()-1;i>=0;i--) {
+			Res=Res + str.charAt(i);
+			
+			System.out.println(Res);
+			
+		}
+
+	}
+
+}

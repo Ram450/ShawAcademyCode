@@ -1,0 +1,14 @@
+package javapractice;
+
+public class Reversestr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str= "Ramanji Asula cat mat";
+		String[] strword=str.split("\\s+");
+		System.out.println(strword);
+
+	}
+
+}
